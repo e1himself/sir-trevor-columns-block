@@ -1,0 +1,28 @@
+{
+  "name": "sir-trevor-columns-block-example",
+  "version": "0.0.1",
+  "homepage": "https://github.com/madebymany/sir-trevor-js",
+  "authors": [
+    "Ivan Voskoboinyk <ioann.voskoboynyk@gmail.com>"
+  ],
+  "description": "Sir Trevor Columns Block example",
+  "keywords": [
+    "Sir",
+    "Trevor",
+    "Columns",
+    "Layout",
+    "Example"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "es5-shim": "~4.1.0",
+    "jquery": "~2.1.3"
+  }
+}

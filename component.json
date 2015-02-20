@@ -1,0 +1,15 @@
+{
+  "name": "sir-trevor-responsive-filemanager",
+  "repo": "ansata-biz/sir-trevor-responsive-filemanager",
+  "version": "0.1.0",
+  "description": "SirTrevor plugin to use Responsive Filemanager for file browsing",
+  "keywords": [ "sir-trevor", "plugin", "responsive filemanager", "images", "upload" ],
+  "license": "MIT",
+
+  "main": "sir-trevor-responsive-filemanager.js",
+  "scripts": [ "sir-trevor-responsive-filemanager.js" ],
+
+  "dependencies": {
+    "madebymany/sir-trevor-js": "*"
+  }
+}

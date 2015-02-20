@@ -1,0 +1,236 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M61.44 839.68h163.84v-655.36h-163.84v655.36zM307.2 839.68h409.6v-655.36h-409.6v655.36zM798.72 839.68h163.84v-655.36h-163.84v655.36z"
+				],
+				"grid": 0,
+				"tags": [
+					"Columns121"
+				]
+			},
+			"properties": {
+				"order": 19,
+				"id": 48,
+				"prevSize": 32,
+				"code": 58896,
+				"name": "Columns121",
+				"ligatures": "onetwoonecolumns"
+			},
+			"setIdx": 0,
+			"iconIdx": 0
+		},
+		{
+			"icon": {
+				"paths": [
+					"M61.44 839.68h655.36v-655.36h-655.36v655.36zM798.72 839.68h163.84v-655.36h-163.84v655.36z"
+				],
+				"grid": 0,
+				"tags": [
+					"Columns31"
+				]
+			},
+			"properties": {
+				"order": 20,
+				"id": 47,
+				"prevSize": 32,
+				"code": 58897,
+				"name": "Columns31",
+				"ligatures": "threeonecolumns"
+			},
+			"setIdx": 0,
+			"iconIdx": 1
+		},
+		{
+			"icon": {
+				"paths": [
+					"M61.44 839.68h573.44v-655.36h-573.44v655.36zM716.8 839.68h245.76v-655.36h-245.76v655.36z"
+				],
+				"grid": 0,
+				"tags": [
+					"Columns21"
+				]
+			},
+			"properties": {
+				"order": 21,
+				"id": 46,
+				"prevSize": 32,
+				"code": 58898,
+				"name": "Columns21",
+				"ligatures": "twoonecolumns"
+			},
+			"setIdx": 0,
+			"iconIdx": 2
+		},
+		{
+			"icon": {
+				"paths": [
+					"M61.44 839.68h163.84v-655.36h-163.84v655.36zM307.2 839.68h655.36v-655.36h-655.36v655.36z"
+				],
+				"grid": 0,
+				"tags": [
+					"Columns13"
+				]
+			},
+			"properties": {
+				"order": 22,
+				"id": 45,
+				"prevSize": 32,
+				"code": 58899,
+				"name": "Columns13",
+				"ligatures": "onethreecolumns"
+			},
+			"setIdx": 0,
+			"iconIdx": 3
+		},
+		{
+			"icon": {
+				"paths": [
+					"M61.44 839.68h245.76v-655.36h-245.76v655.36zM389.12 839.68h573.44v-655.36h-573.44v655.36z"
+				],
+				"grid": 0,
+				"tags": [
+					"Columns12"
+				]
+			},
+			"properties": {
+				"order": 23,
+				"id": 44,
+				"prevSize": 32,
+				"code": 58900,
+				"name": "Columns12",
+				"ligatures": "onetwocolumns"
+			},
+			"setIdx": 0,
+			"iconIdx": 4
+		},
+		{
+			"icon": {
+				"paths": [
+					"M61.44 839.68h163.84v-655.36h-163.84v655.36zM307.2 839.68h163.84v-655.36h-163.84v655.36zM552.96 839.68h163.84v-655.36h-163.84v655.36zM798.72 839.68h163.84v-655.36h-163.84v655.36z"
+				],
+				"grid": 0,
+				"tags": [
+					"Columns4"
+				]
+			},
+			"properties": {
+				"order": 24,
+				"id": 43,
+				"prevSize": 32,
+				"code": 58901,
+				"name": "Columns4",
+				"ligatures": "fourcolumns"
+			},
+			"setIdx": 0,
+			"iconIdx": 5
+		},
+		{
+			"icon": {
+				"paths": [
+					"M61.44 839.68h245.76v-655.36h-245.76v655.36zM389.12 839.68h245.76v-655.36h-245.76v655.36zM716.8 839.68h245.76v-655.36h-245.76v655.36z"
+				],
+				"grid": 0,
+				"tags": [
+					"Columns3"
+				]
+			},
+			"properties": {
+				"order": 25,
+				"id": 42,
+				"prevSize": 32,
+				"code": 58902,
+				"name": "Columns3",
+				"ligatures": "threecolumns"
+			},
+			"setIdx": 0,
+			"iconIdx": 6
+		},
+		{
+			"icon": {
+				"paths": [
+					"M61.44 839.68h409.6v-655.36h-409.6v655.36zM552.96 839.68h409.6v-655.36h-409.6v655.36z"
+				],
+				"grid": 0,
+				"tags": [
+					"Columns2"
+				]
+			},
+			"properties": {
+				"order": 26,
+				"id": 41,
+				"prevSize": 32,
+				"code": 58903,
+				"name": "Columns2",
+				"ligatures": "twocolumns"
+			},
+			"setIdx": 0,
+			"iconIdx": 7
+		},
+		{
+			"icon": {
+				"paths": [
+					"M1003.52 143.36v737.28h-983.040v-737.28h983.040zM61.44 839.68h430.080v-655.36h-430.080v655.36zM532.48 839.68h430.080v-655.36h-430.080v655.36z"
+				],
+				"grid": 0,
+				"tags": [
+					"Columns"
+				]
+			},
+			"properties": {
+				"order": 27,
+				"id": 40,
+				"prevSize": 32,
+				"code": 58906,
+				"name": "Columns",
+				"ligatures": "columns"
+			},
+			"setIdx": 0,
+			"iconIdx": 8
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "ST-Columns-Icons"
+	},
+	"preferences": {
+		"fontPref": {
+			"prefix": "st-icon",
+			"metadata": {
+				"fontFamily": "ST-Columns-Icons",
+				"majorVersion": 1,
+				"minorVersion": 0
+			},
+			"showGlyphs": true,
+			"metrics": {
+				"emSize": 512,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"resetPoint": 58880,
+			"showQuickUse": true,
+			"quickUsageToken": false,
+			"showMetrics": true,
+			"showMetadata": false,
+			"autoHost": true,
+			"postfix": ""
+		},
+		"imagePref": {
+			"color": 0,
+			"height": 32,
+			"columns": 16,
+			"margin": 16,
+			"png": false,
+			"sprites": true
+		},
+		"historySize": 100,
+		"showCodes": false,
+		"gridSize": 16,
+		"showLiga": true,
+		"showGrid": true,
+		"showGlyphs": true,
+		"showQuickUse": true
+	}
+}
