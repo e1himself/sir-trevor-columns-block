@@ -1,13 +1,10 @@
 {
-  "name": "sir-trevor-responsive-filemanager",
-  "repo": "ansata-biz/sir-trevor-responsive-filemanager",
+  "name": "sir-trevor-columns-block",
+  "repo": "e1himself/sir-trevor-columns-block",
   "version": "0.1.0",
-  "description": "SirTrevor plugin to use Responsive Filemanager for file browsing",
-  "keywords": [ "sir-trevor", "plugin", "responsive filemanager", "images", "upload" ],
+  "description": "SirTrevor plugin for columns layout",
+  "keywords": [ "sir-trevor", "plugin", "columns", "layout", "nesting" ],
   "license": "MIT",
-
-  "main": "sir-trevor-responsive-filemanager.js",
-  "scripts": [ "sir-trevor-responsive-filemanager.js" ],
 
   "dependencies": {
     "madebymany/sir-trevor-js": "*"
