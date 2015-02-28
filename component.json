@@ -1,6 +1,7 @@
 {
   "name": "sir-trevor-columns-block",
   "repo": "e1himself/sir-trevor-columns-block",
+  "main": "sir-trevor-columns-block.js",
   "version": "0.1.0",
   "description": "SirTrevor plugin for columns layout",
   "keywords": [ "sir-trevor", "plugin", "columns", "layout", "nesting" ],
