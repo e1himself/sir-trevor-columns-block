@@ -2,9 +2,7 @@
   "name": "sir-trevor-columns-block",
   "version": "0.1.1",
   "ignore": [
-    "examples",
-    "icons",
-    "scss"
+    "examples"
   ],
   "dependencies": {
     "sir-trevor-js": "e1himself/sir-trevor-js#master"
