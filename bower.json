@@ -7,6 +7,6 @@
     "scss"
   ],
   "dependencies": {
-    "madebymany/sir-trevor-js": "*"
+    "sir-trevor-js": "e1himself/sir-trevor-js#master"
   }
 }
