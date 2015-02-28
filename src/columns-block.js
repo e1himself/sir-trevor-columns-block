@@ -5,7 +5,7 @@
  */
 
 
-define(['sir-trevor-js', 'lodash'], function(SirTrevor){
+define(['sir-trevor-js'], function(SirTrevor){
 
   SirTrevor.Blocks.Columns = SirTrevor.Block.extend({
 
