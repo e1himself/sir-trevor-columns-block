@@ -1,0 +1,12 @@
+{
+  "name": "sir-trevor-columns-block",
+  "version": "0.1.1",
+  "ignore": [
+    "examples",
+    "icons",
+    "scss"
+  ],
+  "dependencies": {
+    "madebymany/sir-trevor-js": "*"
+  }
+}
