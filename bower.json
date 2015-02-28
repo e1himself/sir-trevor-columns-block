@@ -1,0 +1,8 @@
+{
+  "name": "sir-trevor-columns-block",
+  "version": "0.5.0-beta1",
+  "main": "sir-trevor-columns-block.js",
+  "dependencies": {
+    "madebymany/sir-trevor-js": "*"
+  }
+}
