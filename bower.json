@@ -1,6 +1,6 @@
 {
   "name": "sir-trevor-columns-block",
-  "version": "0.5.0-beta1",
+  "version": "0.1.0",
   "main": "sir-trevor-columns-block.js",
   "ignore": [
     "**/.*",
