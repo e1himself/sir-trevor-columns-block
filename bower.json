@@ -2,6 +2,12 @@
   "name": "sir-trevor-columns-block",
   "version": "0.5.0-beta1",
   "main": "sir-trevor-columns-block.js",
+  "ignore": [
+    "**/.*",
+    "examples",
+    "icons",
+    "scss"
+  ],
   "dependencies": {
     "madebymany/sir-trevor-js": "*"
   }
