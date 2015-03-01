@@ -95,7 +95,7 @@
                     var $this = $(this);
                     // destroy nested blocks properly
                     $this.children('.st-block').each(function () {
-                        self.editorInstance.removeBlock(this.getAttribute('id'));
+                        self.editorInstance.block_manager.removeBlock(this.getAttribute('id'));
                     });
                     // destroy column itself
                     $this.trigger('destroy').remove();
@@ -185,7 +185,7 @@
                 var $column = this.getColumn(i);
                 for (var j = 0; j < columns_data[i].blocks.length; j++) {
                     var block = columns_data[i].blocks[j];
-                    $block = this.editorInstance.createBlock(block.type, block.data, $block ? $block.$el : $column.children('.st-block-controls__top'));
+                    $block = this.editorInstance.block_manager.createBlock(block.type, block.data, $block ? $block.$el : $column.children('.st-block-controls__top'));
                 }
             }
         },

@@ -8,7 +8,8 @@ https://github.com/e1himself/sir-trevor-js/tree/feature-modify-core
 Installation
 ------------
 
-See example/index.html for installation demo.
+1. Download latest release.
+2. See example/index.html for installation demo.
 
 AMD
 ---
