@@ -1,11 +1,15 @@
 {
   "name": "sir-trevor-columns-block",
-  "main": "sir-trevor-columns-block.js",
+  "main": [
+    "sir-trevor-columns-block.js",
+    "sir-trevor-columns-block.css",
+    "sir-trevor-columns-block-icons.css"
+  ],
   "version": "0.1.1",
   "ignore": [
     "examples"
   ],
   "dependencies": {
-    "sir-trevor-js": "e1himself/sir-trevor-js#master"
+    "mr-trevor-js": "*"
   }
 }
