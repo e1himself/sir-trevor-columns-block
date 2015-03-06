@@ -12,12 +12,12 @@
 				]
 			},
 			"properties": {
-				"order": 19,
+				"order": 1,
 				"id": 48,
 				"prevSize": 32,
 				"code": 58896,
 				"name": "Columns121",
-				"ligatures": "onetwoonecolumns"
+				"ligatures": "columns-3-6-3"
 			},
 			"setIdx": 0,
 			"iconIdx": 0
@@ -33,12 +33,12 @@
 				]
 			},
 			"properties": {
-				"order": 20,
+				"order": 2,
 				"id": 47,
 				"prevSize": 32,
 				"code": 58897,
 				"name": "Columns31",
-				"ligatures": "threeonecolumns"
+				"ligatures": "columns-9-3"
 			},
 			"setIdx": 0,
 			"iconIdx": 1
@@ -54,12 +54,12 @@
 				]
 			},
 			"properties": {
-				"order": 21,
+				"order": 3,
 				"id": 46,
 				"prevSize": 32,
 				"code": 58898,
 				"name": "Columns21",
-				"ligatures": "twoonecolumns"
+				"ligatures": "columns-8-4"
 			},
 			"setIdx": 0,
 			"iconIdx": 2
@@ -75,12 +75,12 @@
 				]
 			},
 			"properties": {
-				"order": 22,
+				"order": 4,
 				"id": 45,
 				"prevSize": 32,
 				"code": 58899,
 				"name": "Columns13",
-				"ligatures": "onethreecolumns"
+				"ligatures": "columns-3-9"
 			},
 			"setIdx": 0,
 			"iconIdx": 3
@@ -96,12 +96,12 @@
 				]
 			},
 			"properties": {
-				"order": 23,
+				"order": 5,
 				"id": 44,
 				"prevSize": 32,
 				"code": 58900,
 				"name": "Columns12",
-				"ligatures": "onetwocolumns"
+				"ligatures": "columns-4-8"
 			},
 			"setIdx": 0,
 			"iconIdx": 4
@@ -117,12 +117,12 @@
 				]
 			},
 			"properties": {
-				"order": 24,
+				"order": 6,
 				"id": 43,
 				"prevSize": 32,
 				"code": 58901,
 				"name": "Columns4",
-				"ligatures": "fourcolumns"
+				"ligatures": "columns-3-3-3-3"
 			},
 			"setIdx": 0,
 			"iconIdx": 5
@@ -138,12 +138,12 @@
 				]
 			},
 			"properties": {
-				"order": 25,
+				"order": 7,
 				"id": 42,
 				"prevSize": 32,
 				"code": 58902,
 				"name": "Columns3",
-				"ligatures": "threecolumns"
+				"ligatures": "columns-4-4-4"
 			},
 			"setIdx": 0,
 			"iconIdx": 6
@@ -159,12 +159,12 @@
 				]
 			},
 			"properties": {
-				"order": 26,
+				"order": 8,
 				"id": 41,
 				"prevSize": 32,
 				"code": 58903,
 				"name": "Columns2",
-				"ligatures": "twocolumns"
+				"ligatures": "columns-6-6"
 			},
 			"setIdx": 0,
 			"iconIdx": 7
@@ -180,7 +180,7 @@
 				]
 			},
 			"properties": {
-				"order": 27,
+				"order": 9,
 				"id": 40,
 				"prevSize": 32,
 				"code": 58906,
@@ -231,6 +231,11 @@
 		"showLiga": true,
 		"showGrid": true,
 		"showGlyphs": true,
-		"showQuickUse": true
+		"showQuickUse": true,
+		"showQuickUse2": true,
+		"showSVGs": true,
+		"quickUsageToken": {
+			"SirTrevorColumnsBlock": "YWYwZmMwYWIwN2NiMDY5NWM2ZTZlMTg5ODNjYzJlNWMjMSMxNDI1NjI5MjQ4IyMj"
+		}
 	}
 }

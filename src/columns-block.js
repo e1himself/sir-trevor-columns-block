@@ -43,14 +43,14 @@
 
         beforeBlockRender: function () {
             this.controls = {
-                'twocolumns': this.changeColumnsHandler('columns-6-6'),
-                'threecolumns': this.changeColumnsHandler('columns-4-4-4'),
-                'onetwocolumns': this.changeColumnsHandler('columns-4-8'),
-                'twoonecolumns': this.changeColumnsHandler('columns-8-4'),
-                'fourcolumns': this.changeColumnsHandler('columns-3-3-3-3'),
-                'onethreecolumns': this.changeColumnsHandler('columns-3-9'),
-                'threeonecolumns': this.changeColumnsHandler('columns-9-3'),
-                'onetwoonecolumns': this.changeColumnsHandler('columns-3-6-3')
+                'columns-6-6': this.changeColumnsHandler('columns-6-6'),
+                'columns-4-4-4': this.changeColumnsHandler('columns-4-4-4'),
+                'columns-4-8': this.changeColumnsHandler('columns-4-8'),
+                'columns-8-4': this.changeColumnsHandler('columns-8-4'),
+                'columns-3-3-3-3': this.changeColumnsHandler('columns-3-3-3-3'),
+                'columns-3-9': this.changeColumnsHandler('columns-3-9'),
+                'columns-9-3': this.changeColumnsHandler('columns-9-3'),
+                'columns-3-6-3': this.changeColumnsHandler('columns-3-6-3')
             };
         },
 
