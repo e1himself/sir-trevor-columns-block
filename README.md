@@ -12,7 +12,8 @@ Patched Sir Trevor is available as `mr-trevor-js` bower package (see bower.json 
 
 ![Demo](example/demo.gif)
 
-[Pull request to original Sir Trevor](https://github.com/madebymany/sir-trevor-js/pull/297) is pending now.
+[Pull request to original Sir Trevor](https://github.com/madebymany/sir-trevor-js/pull/297) is closed. 
+So this the only chance to use this plugin is [e1himself/mr-trevor-js](https://github.com/e1himself/mr-trevor-js).
  
 
 Installation
