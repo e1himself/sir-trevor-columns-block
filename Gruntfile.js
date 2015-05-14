@@ -24,18 +24,23 @@ module.exports = function(grunt) {
         dest: 'build/<%= pkg.name %>.min.js'
       }
     },
+    clean: {
+      build: {
+        src: 'build/*'
+      }
+    },
     sass: {
       styles: {
         files: {
-          'build/<%= pkg.name %>.css': 'scss/block-columns.scss'
+          'build/<%= pkg.name %>.css': 'scss/styles.scss'
         }
       }
     },
 
     imageEmbed: {
       icons: {
-        src: [ "icons/columns-block-icons.tpl.css" ],
-        dest: "build/<%= pkg.name %>-icons.css",
+        src: [ "build/<%= pkg.name %>.css" ],
+        dest: "build/<%= pkg.name %>.all.css",
         options: {
           deleteAfterEncoding : false
         }
@@ -76,6 +81,7 @@ module.exports = function(grunt) {
   });
 
   // Load plugins
+  grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-watch');
@@ -86,7 +92,7 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-http-server');
 
-  grunt.registerTask('build', ['concat', 'uglify', 'sass', 'imageEmbed']);
+  grunt.registerTask('build', ['clean', 'concat', 'uglify', 'sass', 'imageEmbed']);
 
   grunt.registerTask('example', ['build', 'http-server:example', 'open:example', 'wait-forever']);
 
