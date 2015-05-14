@@ -15,6 +15,30 @@ module.exports = function(grunt) {
         dest: 'build/<%= pkg.name %>.js'
       }
     },
+
+    copy: {
+      dist: {
+        files: [
+          {expand: true, cwd: 'build/', src: '*', dest: 'dist/'},
+          {expand: true, cwd: 'fonts/', src: 'ST-Columns-Icons.woff', dest: 'dist/fonts/'} // the only one font used for now
+        ]
+      }
+    },
+
+    rebase: {
+      dist: {
+        files: [{
+          src: 'dist/<%= pkg.name %>.css',
+          dest: 'dist/<%= pkg.name %>.css',
+          scopes: {
+            url: {
+              "\\.\\.\/fonts": "fonts"
+            }
+          }
+        }]
+      }
+    },
+
     uglify: {
       options: {
         banner: banner
@@ -26,7 +50,10 @@ module.exports = function(grunt) {
     },
     clean: {
       build: {
-        src: 'build/*'
+        src: 'build'
+      },
+      dist: {
+        src: 'dist'
       }
     },
     sass: {
@@ -81,6 +108,7 @@ module.exports = function(grunt) {
   });
 
   // Load plugins
+  grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-concat');
@@ -88,11 +116,13 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-image-embed');
   grunt.loadNpmTasks('grunt-open');
+  grunt.loadNpmTasks('grunt-rebase');
   grunt.loadNpmTasks('grunt-wait-forever');
 
   grunt.loadNpmTasks('grunt-http-server');
 
   grunt.registerTask('build', ['clean', 'concat', 'uglify', 'sass', 'imageEmbed']);
+  grunt.registerTask('dist', ['build', 'copy', 'rebase', 'clean:build']);
 
   grunt.registerTask('example', ['build', 'http-server:example', 'open:example', 'wait-forever']);
 

@@ -1,11 +1,16 @@
 {
   "name": "sir-trevor-columns-block",
   "main": [
-    "src/columns-block.js"
+    "dist/sir-trevor-columns-block.js",
+    "dist/sir-trevor-columns-block.min.js",
+    "dist/sir-trevor-columns-block.css",
+    "dist/sir-trevor-columns-block.all.css",
+    "dist/sir-trevor-columns-block.css.map",
+    "dist/fonts/*"
   ],
   "version": "0.1.1",
   "ignore": [
-    "examples"
+    "example", "icons", "scss", "src"
   ],
   "dependencies": {
     "mr-trevor-js": "*"
